@@ -29,7 +29,7 @@ params:
     # defaultTheme: light
     # defaultTheme: dark
     defaultTheme: dark # to switch between dark or light according to browser theme
-    disableThemeToggle: true
+    disableThemeToggle: false
 
     # This will show share button on the post
     ShowShareButtons: true
