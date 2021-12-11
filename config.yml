@@ -15,12 +15,10 @@ languages:
                   weight: 4
                 - name: Search
                   url: search/
-                  weight: 15
-                - name: Categories
-                  url: categories/
-                  weight: 10
+                  weight: 15  
 
 params:
+    env: production
     # defaultTheme: light
     # defaultTheme: dark
     defaultTheme: dark # to switch between dark or light according to browser theme
