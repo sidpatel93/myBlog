@@ -19,6 +19,13 @@ languages:
 
 params:
     env: production
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        keys: ["title", "content"]
     # defaultTheme: light
     # defaultTheme: dark
     defaultTheme: dark # to switch between dark or light according to browser theme
