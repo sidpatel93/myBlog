@@ -38,7 +38,7 @@ params:
     author: Siddharth Patel
 
     # This will enable the comments
-    comments: false
+    comments: true
 
     homeInfoParams:
       Title: Hi there !!
