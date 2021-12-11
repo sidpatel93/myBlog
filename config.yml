@@ -1,0 +1,30 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: Expploring CS
+theme: "PaperMod"
+
+params:
+    # defaultTheme: light
+    # defaultTheme: dark
+    defaultTheme: dark # to switch between dark or light according to browser theme
+    disableThemeToggle: true
+
+    homeInfoParams:
+      Title: Hi there !!
+      Content: My name is Siddharth Patel and I am a graduate student in Computer Science at Georgia Institute of Technology. However, I am also a Mechanical Engineer with Bachelor's degree in Mechatronics Engineering and a Master's in Industrial Engineering. I guess the learning never stops right ??!!   
+
+    socialIcons: # optional
+      - name: github
+        url: https://github.com/sidpatel93 
+      - name: linkedin
+        url: https://www.linkedin.com/in/patel-sid
+      - name: email
+        url: mailto:sid-patel@outlook.com
+    
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
