@@ -30,7 +30,10 @@ params:
 
     # This will show the post read time on the page
     ShowReadingTime: true
-
+    # This will show Previous / Next post suggestion under a single post
+    ShowPostNavLinks: true
+    # This will Adds BreadCrumb Navigation above Post’s Title to show subsections and Navigation to Home
+    ShowBreadCrumbs: true
     # This will show the authors on the posts
     author: Siddharth Patel
 
