@@ -1,6 +1,7 @@
 baseURL: https://sidpatel93.github.io/myBlog/ 
 languageCode: en-us
 title: Exploring CS
+paginate: 5
 theme: "PaperMod"
 
 languages:
@@ -9,12 +10,12 @@ languages:
         weight: 1
         menu:
             main:
-                - name: Posts Archive
-                  url: archives
-                  weight: 5
+                - name: Blog Posts 
+                  url: archives  
+                  weight: 4
                 - name: Search
                   url: search/
-                  weight: 10
+                  weight: 15
                 - name: Categories
                   url: categories/
                   weight: 10
