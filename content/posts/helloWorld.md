@@ -2,6 +2,13 @@
 title: "Hello World"
 date: 2021-12-11T12:04:39-05:00
 draft: false
+cover:
+    image: /images/postImages/sample1.jpg#center
+    # can also paste direct link from external site
+    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+    alt: "<alt text>"
+    caption: "<text>"
+    relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
 ## This is the Blog Title
@@ -14,7 +21,7 @@ Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 
 &nbsp;
 
-```javascript copy
+```javascript
 // program to find the largest among three numbers
 
 // take input from the user
