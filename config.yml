@@ -3,6 +3,7 @@ languageCode: en-us
 title: Exploring CS
 paginate: 5
 theme: "PaperMod"
+googleAnalytics: "G-T72REH2SJ7"
 
 languages:
     en:
@@ -37,9 +38,9 @@ params:
         threshold: 0.6
         keys: ["title", "content", "categories"]
 
-    analytics:
-    google:
-        SiteVerificationTag: "G-T72REH2SJ7"
+    # analytics:
+    # google:
+    #     SiteVerificationTag: "G-T72REH2SJ7"
 
     cover:
         responsiveImages: false
