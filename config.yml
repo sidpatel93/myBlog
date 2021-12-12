@@ -3,7 +3,6 @@ languageCode: en-us
 title: Exploring CS
 paginate: 5
 theme: "PaperMod"
-googleAnalytics: G-XRSW6C7JPD
 
 languages:
     en:
@@ -40,7 +39,7 @@ params:
 
     analytics:
     google:
-        SiteVerificationTag: G-XRSW6C7JPD
+        SiteVerificationTag: "G-XRSW6C7JPD"
 
     cover:
         responsiveImages: false
