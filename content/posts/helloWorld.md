@@ -1,7 +1,9 @@
 ---
 title: "Hello World"
 date: 2021-12-11T12:04:39-05:00
-draft: false
+draft: false  
+categories: 
+    - Development
 cover:
     image: /images/postImages/sample1.jpg#center
     # can also paste direct link from external site
@@ -21,7 +23,7 @@ Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 
 &nbsp;
 
-```javascript
+```javascript {linenos=table,hl_lines=["3-8"]}
 // program to find the largest among three numbers
 
 // take input from the user

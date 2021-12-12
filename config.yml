@@ -16,6 +16,14 @@ languages:
                 - name: Search
                   url: search/
                   weight: 15  
+                - name: Categories
+                  url: categories/
+                  weight: 10
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
 
 params:
     env: production
@@ -23,9 +31,9 @@ params:
         isCaseSensitive: false
         shouldSort: true
         location: 0
-        distance: 1000
-        threshold: 0.4
-        keys: ["title", "content"]
+        distance: 100
+        threshold: 0.6
+        keys: ["title", "content", "categories"]
     cover:
         responsiveImages: false
         hiddenInList: true
