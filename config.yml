@@ -3,6 +3,7 @@ languageCode: en-us
 title: Exploring CS
 paginate: 5
 theme: "PaperMod"
+googleAnalytics: G-XRSW6C7JPD
 
 languages:
     en:
@@ -26,7 +27,9 @@ taxonomies:
     series: series
 
 params:
+
     env: production
+
     fuseOpts:
         isCaseSensitive: false
         shouldSort: true
@@ -34,6 +37,11 @@ params:
         distance: 100
         threshold: 0.6
         keys: ["title", "content", "categories"]
+
+    analytics:
+    google:
+        SiteVerificationTag: G-XRSW6C7JPD
+
     cover:
         responsiveImages: false
         hiddenInList: true
