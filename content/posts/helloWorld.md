@@ -1,5 +1,5 @@
 ---
-title: "Hello World"
+title: "My First Blog"
 date: 2021-12-11T12:04:39-05:00
 draft: false  
 categories: 
@@ -13,41 +13,42 @@ cover:
     relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-## This is the Blog Title
+## Starting my journey to become Software Developer
 
-The standard Lorem Ipsum passage, used since the 1500s
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+Hi everyone, this is my very first post in my journey to become the Software Engineer/Developer. 
+My educational background is in Mechanical and Industrial Engineering, but ever since I was in the undergraduate school, I was fascinated with the computers. After I finished the undergraduate, I went to pursue a graduate degree in Industrial and Systems Engineering.  
 
-Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+I worked as a Product Engineer for a Manufacturing Company for almost 5 years after graduating from college, but my interest in the computer programming remains. I used to follow web development tutorials from youtube and udemy in free time. When I first started, I did not know where to start and what resources are best for learning how to code.  
 
-&nbsp;
+Then I bought this book [Python Crash Course](https://nostarch.com/pythoncrashcourse2e). I think this is one of the best best book for a beginner who would like to learn the fundamental concepts about computer programming, basic in-built datastructures and Object Oriented Programming. Later I decided to get formal education in the Computer Science, so I started Masters in Computer Science from Georgia Institute of Technology, which is currently in progrress.  
 
-```javascript {linenos=table,hl_lines=["3-8"]}
-// program to find the largest among three numbers
+I have created this blog hoping that I will share the content and resources I am using with you all. 
+I hope you will find a thing or two in my posts. It would be diffifult to cram all the resources in one blog post, so I will distribute them among various posts with appropriate tags and categories. You can search the posts by category on the navigation bar.  
 
-// take input from the user
-const num1 = parseFloat(prompt("Enter first number: "));
-const num2 = parseFloat(prompt("Enter second number: "));
-const num3 = parseFloat(prompt("Enter third number: "));
-let largest;
+I am by no means expert or professional in the field of Software Engineering. I truly appreciate if you can share your thoughts with me as well in the comments or contact me via email.  
 
-// check the condition
-if(num1 >= num2 && num1 >= num3) {
-    largest = num1;
-}
-else if (num2 >= num1 && num2 >= num3) {
-    largest = num2;
-}
-else {
-    largest = num3;
-}
+## First Step: Creating a Blog
 
-// display the result
-console.log("The largest number is " + largest);  
-```  
-&nbsp;
+I know it can be quite intemedating to get stated while you are learning to code.
+In my opinion, it would be quite beneficial if you can create your personal blog early in your learning journey and share the content with others. 
+This will give you kind of accountability and push you to go further. I am little late to get this blog started, but as the saying goes:   
 
-1914 translation by H. Rackham
-"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+{{< blockquote author="Chinese Proverb" >}}“The best time to plant a tree was 20 years ago. The second best time is now.” {{</blockquote>}}
+
+I am using a framework called [Hugo](https://gohugo.io/) to create this blog. 
+It does not have all the bells and whistles that Wordpress offers, but requires much less time setting up and get started compare to Wordpress, which has little learning curve.
+
+Furthermore, I am using a theme called [Papermod](https://themes.gohugo.io/themes/hugo-papermod/). This is amazing and simplistic theme for hugo. You can develop your blog locally to test it. Once you satisfied, then you can purchase a domain name Sites like [HostGator](https://www.hostgator.com/) or [Google Domain](https://domains.google.com/registrar/) and host it on the internet. I have this site hosted on the GitHub Pages, which allows you to host a static site for free.  
+
+I hope the information here is a enough to nudge you in the right direction for creating a blog. If you have any specific question about any of the process mentioned in this post, please feel free to comment below and I will get back to you with detailed explanation.
+
+
+
+
+
+
+
+
+
+
 
