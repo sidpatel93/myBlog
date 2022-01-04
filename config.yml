@@ -24,7 +24,7 @@ languages:
                   url: categories/
                   weight: 10
                 - name: Portfolio
-                  url: /portfolio/
+                  url: /portfolios/
                   weight: 6
                 
 
