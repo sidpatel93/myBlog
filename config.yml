@@ -11,8 +11,11 @@ languages:
         weight: 1
         menu:
             main:
+                - name: About Me 
+                  url: /  
+                  weight: 3
                 - name: Blog Posts 
-                  url: archives  
+                  url: /posts/
                   weight: 4
                 - name: Search
                   url: search/
@@ -20,6 +23,10 @@ languages:
                 - name: Categories
                   url: categories/
                   weight: 10
+                - name: Portfolio
+                  url: /portfolio/
+                  weight: 6
+                
 
 taxonomies:
     category: categories
@@ -82,7 +89,6 @@ params:
        
        Please feel free to make suggestions on the posts via comments or reach me via links mentioned below.  
     
-
     socialIcons: # optional
       - name: github
         url: https://github.com/sidpatel93 
@@ -90,11 +96,51 @@ params:
         url: https://www.linkedin.com/in/patel-sid
       - name: email
         url: mailto:sid-patel@outlook.com
-    
+
+    profileMode:
+        enabled: true
+        title: Hi there 👋 !!   # optional default will be site title
+        subtitle: >
+          &nbsp;  
+
+          My name is Siddharth Patel and I am a Software Developer with background in Mechanical and Industrial Engineering.
+          I have created this blog *__Exploring CS__* to share various Computer Science and Software related concepts in easy to understand fashion.
+          My hope is to offer you different perspective on various Software related topics , and during this process, I would like to learn from you as well !
+          Please feel free to make suggestions on the posts via comments or reach me via links mentioned below.  
+
+          You can download my resume here. [📥](/images/Siddharth_Resume.pdf) 
+
+        imageUrl: /images/profile-pic.png#center # optional
+        imageTitle: "<title of image as alt>" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        # buttons:
+        #     - name: Archive
+        #       url: "/archive"
+        #     - name: Github
+        #       url: "https://github.com/"
+
+        socialIcons: # optional
+          - name: github
+            url: https://github.com/sidpatel93 
+          - name: linkedin
+            url: https://www.linkedin.com/in/patel-sid
+          - name: email
+            url: mailto:sid-patel@outlook.com
+        
 
 outputs:
     home:
         - HTML
         - RSS
         - JSON # is necessary
+
+pygmentsUseClasses: true
+markup:
+    highlight:
+        anchorLineNos: true
+        codeFences: true
+        guessSyntax: true
+        lineNos: true
+        style: monokai
 
