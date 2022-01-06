@@ -1,6 +1,6 @@
 ---
 title: "Job-Comparator: An Android Application"
-date: 2021-11-15T14:04:51-05:00
+date: 2021-09-20T14:04:51-05:00
 draft: false
 categories: 
     - Android
