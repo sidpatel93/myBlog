@@ -1,15 +1,15 @@
 ---
-title: "Pizza-N-Go - A Full-stack Application"
+title: "Pizza-N-Go: A Full-stack Application"
 date: 2021-11-15T14:04:51-05:00
 draft: false
 categories: 
     - Full-stack
+weight: 1
 cover:
     image: /images/portfolioImages/pizzango/1.jpeg#center
     # can also paste direct link from external site
     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
     alt: "pizza-image"
-    caption: "pizaa-image"
     relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
