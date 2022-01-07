@@ -5,6 +5,8 @@ draft: false
 categories: 
     - Full-stack
 weight: 1
+ShowToc: true
+TocOpen: true
 cover:
     image: /images/portfolioImages/pizzango/1.jpeg#center
     # can also paste direct link from external site

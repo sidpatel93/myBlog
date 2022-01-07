@@ -52,6 +52,7 @@ params:
     cover:
         responsiveImages: false
         hiddenInList: true
+        hiddenInSinglePage: true
     # defaultTheme: light
     # defaultTheme: dark
     defaultTheme: dark # to switch between dark or light according to browser theme
@@ -88,7 +89,7 @@ params:
        My hope is to offer you different perspective on various Software related topics , and during this process, I would like to learn from you as well !   
        
        Please feel free to make suggestions on the posts via comments or reach me via links mentioned below.  
-    
+
     socialIcons: # optional
       - name: github
         url: https://github.com/sidpatel93 

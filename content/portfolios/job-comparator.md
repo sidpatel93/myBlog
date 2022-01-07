@@ -4,7 +4,9 @@ date: 2021-09-20T14:04:51-05:00
 draft: false
 categories: 
     - Android
-weight: 2
+weight: 3
+ShowToc: true
+TocOpen: true
 cover:
     image: /images/portfolioImages/jobcomparator/1.jpg#center
     # can also paste direct link from external site
@@ -13,8 +15,6 @@ cover:
     relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-
-# Job Comparison App User Manual
 
 ## Introduction
 
