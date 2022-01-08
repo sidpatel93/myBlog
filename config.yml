@@ -157,10 +157,5 @@ markup:
       hardWraps: false
       unsafe: true
       xhtml: false
-    highlight:
-        anchorLineNos: true
-        codeFences: true
-        guessSyntax: true
-        lineNos: true
-        style: monokai
+
 

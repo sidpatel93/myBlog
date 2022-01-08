@@ -5,7 +5,7 @@ draft: false
 categories: 
     - Development
 cover:
-    image: /images/postImages/sample1.jpg#center
+    image: /images/postImages/firstPost/sample1.jpg#center
     # can also paste direct link from external site
     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
     alt: "<alt text>"
