@@ -1,7 +1,7 @@
 ---
 title: "Linked List"
 date: 2022-01-08T10:14:42-05:00
-draft: true
+draft: false
 categories: 
     - Data-structures
 cover:
