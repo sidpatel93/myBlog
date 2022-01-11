@@ -16,7 +16,13 @@ cover:
 ---
 
 
-React scheduler with up to five appointments per day. The information will be synced over multiple clients with the help of Web Sockets.
+React scheduler with up to five appointments per day. A dynamic and a true single-page application that utilizes various React hooks and states. This app utilizes asynchronous programming and testing tools like Jest for unit testing and integration testing and cypress.io for end-to-end testing.   
+
+You can find this application running live on [React-Interview-Scheduler 🗓️](https://react-app-interview-scheduler.netlify.app/).  
+
+Once you open the applicaiton, you may need to wait for three - four seconds or reload to fully load the app. I am using free tier for both services, so this is reasonable considering the price 😜.     
+
+I have hosted this application on Netlify and Heroku using Postgres plugin. The server API on heroku provides the JSON data to the application, which is running on Netlify. 
 
 ## Final Product
 
