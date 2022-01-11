@@ -79,16 +79,20 @@ params:
        &nbsp;  
 
        ![name](/images/profile-pic.png#center)
+       
+       &nbsp;  
+
+       My name is **Siddharth Patel** and I am a Software Developer with background in Mechanical and Industrial Engineering.  
 
        &nbsp;  
 
-       My name is Siddharth Patel and I am a Software Developer with background in Mechanical and Industrial Engineering.   
-
-       I have created this blog *__Exploring CS__* to share various Computer Science and Software related concepts in easy to understand fashion.   
-       
-       My hope is to offer you different perspective on various Software related topics , and during this process, I would like to learn from you as well !   
+       I have created this blog *__Exploring CS__* to share various Computer Science and Software related concepts in easy to understand fashion. My hope is to offer you different perspective on various Software related topics , and during this process, I would like to learn from you as well !   
        
        Please feel free to make suggestions on the posts via comments or reach me via links mentioned below.  
+
+       &nbsp;  
+
+       ### You can download my resume here. [📥](/images/Siddharth_Resume.pdf) 
 
     socialIcons: # optional
       - name: github
@@ -99,7 +103,7 @@ params:
         url: mailto:sid-patel@outlook.com
 
     profileMode:
-        enabled: true
+        enabled: false
         title: Hi there 👋 !!   # optional default will be site title
         subtitle: >
           &nbsp;  
