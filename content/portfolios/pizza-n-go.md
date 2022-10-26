@@ -18,9 +18,7 @@ cover:
 I would admit, the picture above looks delicious, isn't it ? 
  
 I like to present the food ordering application I have created to learn Full-stack Web Development. I had general understanding of the web application and how they are built, but I always wanted to build one from ground up with some of the advance features like real time communication using Web Sockets, user Sessions and Cookie management, integrating text message API, asynchronous operations and more. Furthermore, I wanted to sharpen my skills for AWS by deploying the complete app on AWS platform using some core services like EC2 instances, RDS Database, DynamoDB, Route 53 etc.
- 
-You can find this application running live on [🍕 Pizza-N-Go](https://pizzango.sidpatel.org/)
- 
+
 Let me start from the features and working of this application, and then I will try to explain the technology I've used later.
  
 ## Application
